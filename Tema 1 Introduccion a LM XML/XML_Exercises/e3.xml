@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE car_catalog>
+<car_catalog>
+    <brand>
+        <name>Volkswagen</name>
+        <country_origin>Germany</country_origin>
+        <car>
+            <license_plate>2123 dfe</license_plate>
+            <year_reg>200</year_reg>
+            <model>Golf</model>
+            <number_seats>5</number_seats>
+            <engine_displacement>1,198 cc</engine_displacement>
+        </car>
+        <car>
+            <license_plate>4634 ghy</license_plate>
+            <year_reg>2020</year_reg>
+            <model>Polo</model>
+            <number_seats>5</number_seats>
+            <engine_displacement>999 cc</engine_displacement>
+        </car>
+    </brand>
+    <brand>
+        <name>Volkswagen</name>
+        <country_origin>Germany</country_origin>
+        <car>
+            <license_plate>2123 dfe</license_plate>
+            <year_reg>200</year_reg>
+            <model>Golf</model>
+            <number_seats>5</number_seats>
+            <engine_displacement>1,198 cc</engine_displacement>
+        </car>
+        <car>
+            <license_plate>4634 ghy</license_plate>
+            <year_reg>2020</year_reg>
+            <model>Polo</model>
+            <number_seats>5</number_seats>
+            <engine_displacement>999 cc</engine_displacement>
+        </car>
+    </brand>
+    <brand>
+        <name>Volkswagen</name>
+        <country_origin>Germany</country_origin>
+        <car>
+            <license_plate>2123 dfe</license_plate>
+            <year_reg>200</year_reg>
+            <model>Golf</model>
+            <number_seats>5</number_seats>
+            <engine_displacement>1,198 cc</engine_displacement>
+        </car>
+        <car>
+            <license_plate>4634 ghy</license_plate>
+            <year_reg>2020</year_reg>
+            <model>Polo</model>
+            <number_seats>5</number_seats>
+            <engine_displacement>999 cc</engine_displacement>
+        </car>
+    </brand>
+    <brand>
+        <name>Volkswagen</name>
+        <country_origin>Germany</country_origin>
+        <car>
+            <license_plate>2123 dfe</license_plate>
+            <year_reg>200</year_reg>
+            <model>Golf</model>
+            <number_seats>5</number_seats>
+            <engine_displacement>1,198 cc</engine_displacement>
+        </car>
+        <car>
+            <license_plate>4634 ghy</license_plate>
+            <year_reg>2020</year_reg>
+            <model>Polo</model>
+            <number_seats>5</number_seats>
+            <engine_displacement>999 cc</engine_displacement>
+        </car>
+    </brand>
+    <brand>
+        <name>Volkswagen</name>
+        <country_origin>Germany</country_origin>
+        <car>
+            <license_plate>2123 dfe</license_plate>
+            <year_reg>200</year_reg>
+            <model>Golf</model>
+            <number_seats>5</number_seats>
+            <engine_displacement>1,198 cc</engine_displacement>
+        </car>
+        <car>
+            <license_plate>4634 ghy</license_plate>
+            <year_reg>2020</year_reg>
+            <model>Polo</model>
+            <number_seats>5</number_seats>
+            <engine_displacement>999 cc</engine_displacement>
+        </car>
+    </brand>
+</car_catalog>

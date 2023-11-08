@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE libro>
+<libro> <!--Informacion de una biblioteca-->
+    <titulo>XML Practico</titulo>
+    <autor>Sebastian</autor>
+    <autor>
+		<nombre>Thierry</nombre>
+		<apellido>Henry</apellido>
+	</autor>
+    <editorial>Ediciones Eni</editorial>
+    <isbn>98787-54545-56454</isbn>
+    <edicion>1</edicion>
+    <paginas>347</paginas>
+	<ventas/>
+	<fecha_publi dia="2" mes="Octubre" año="2023"></fecha_publi>
+</libro>

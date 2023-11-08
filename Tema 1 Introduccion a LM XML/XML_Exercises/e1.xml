@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book>
+<book>
+    <title>HOOKED: UNA HISTORIA DE NUNCA JAMAS.</title>
+    <publisher>MONTENA</publisher>
+    <author>EMILY MCINTIRE</author>
+    <number_pages>384</number_pages>
+    <chapter>   
+        <title_chapters>Poner</title_chapters>
+        <start_page>3</start_page>
+        <end_page>27</end_page>
+    </chapter>
+    <chapter>
+        <title_chapters>Tantos</title_chapters>
+        <start_page>28</start_page>
+        <end_page>45</end_page>
+    </chapter>
+    <chapter>
+        <title_chapters>Capitulos</title_chapters>
+        <start_page>45</start_page>
+        <end_page>68</end_page>
+    </chapter>
+    <chapter>
+        <title_chapters>Para</title_chapters>
+        <start_page>68</start_page>
+        <end_page>83</end_page>
+    </chapter>
+    <chapter>
+        <title_chapters>Que</title_chapters>
+        <start_page>83</start_page>
+        <end_page>146</end_page>
+    </chapter>
+    <chapter>
+        <title_chapters>????</title_chapters>
+        <start_page>146</start_page>
+        <end_page>220</end_page>
+    </chapter>
+</book>

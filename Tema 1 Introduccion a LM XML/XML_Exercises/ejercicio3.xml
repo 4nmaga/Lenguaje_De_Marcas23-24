@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE messages>
+<messages>    <!--Informacion de una biblioteca-->
+    <sender>
+        <name>Alfredo Reino</name>
+        <email>alf@ibium.com</email>
+    </sender>
+    <destinatary>
+        <name>Bill Clinton</name>
+        <email>president@whitehouse.gov</email>
+    </destinatary>
+    <head>Hi Bill</head>
+    <body>
+        <paragraph>Hello, how are you?</paragraph>
+        <paragraph>It's been a long time since you last wrote. Let's see if you call, and we can meet up soon.</paragraph>
+        <paragraph>Best regards.</paragraph>
+        
+    </body>
+</messages>

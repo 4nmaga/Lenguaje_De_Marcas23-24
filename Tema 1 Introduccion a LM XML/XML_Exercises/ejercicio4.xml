@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE trees SYSTEM "trees.DTD">
+<trees>    <!--Informacion de una biblioteca-->
+    <Acer_monspessulanum hola="atrib" value="dsa">
+        <common_name>Montpellier Maple, Lesser Maple</common_name>
+        <Vegetation>Deciduous </Vegetation>
+        <Height>6 to 10 meters </Height>
+        <Shape_and_Structure>Spherical crown. Straight main trunk with branches. Drooping foliage.</Shape_and_Structure>
+        <Spring_Color>Bright green upper side, whitish green underside </Spring_Color>
+        <Frost_Resistance>Strong frost resistance (up to -15°C)</Frost_Resistance>
+    </Acer_monspessulanum>
+    <Olea_europea>
+        <common_name>Olive Tree</common_name>
+        <Vegetation>Evergreen </Vegetation>
+        <Height> 8 to 15 meters </Height>
+        <Shape_and_Structure>Irregular crown. Irregular main trunk with bifurcations..</Shape_and_Structure>
+    </Olea_europea>
+    <Ramaje_tortuoso>
+        <Spring_Color> Dark green upper side, silvery green underside </Spring_Color>
+        <Frost_Resistance>Moderate frost resistance (up to -10°C)</Frost_Resistance>
+    </Ramaje_tortuoso>
+    <Platanus_orientalis>
+        <common_name>Plane Tree </common_name>
+        <Vegetation> Deciduous </Vegetation>
+        <Height>20 to 25 meters</Height>
+        <Shape_and_Structure>Ovoid crown. Straight main trunk. Expansive branching.</Shape_and_Structure>
+        <Spring_Color> Medium green upper side, light green underside </Spring_Color>
+        <Autumn_Color>Ochre</Autumn_Color>
+        <Frost_Resistance>Strong frost resistance (up to -20°C)</Frost_Resistance>
+    </Platanus_orientalis>
+    <Quercus_ilex>
+        <common_name>Holm Oak </common_name>
+        <Vegetation>Evergreen</Vegetation>
+        <Height>Around 25 meters </Height>
+        <Shape_and_Structure>Spherical or irregularly elliptical crown. Straight main trunk. Twisted branches. </Shape_and_Structure>
+        <Frost_Resistance>Strong frost resistance (down to -15°C)</Frost_Resistance>
+    </Quercus_ilex>
+</trees>

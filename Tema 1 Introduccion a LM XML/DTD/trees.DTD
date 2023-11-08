@@ -1,0 +1,16 @@
+
+<!ELEMENT trees (Acer_monspessulanum,Olea_europea,Ramaje_tortuoso,Platanus_orientalis,Quercus_ilex)>
+<!ELEMENT Acer_monspessulanum (common_name,Vegetation,Height,Shape_and_Structure,Spring_Color,Frost_Resistance)>
+<!ATTLIST Acer_monspessulanum hola NMTOKEN #REQUIRED>
+<!ATTLIST Acer_monspessulanum value NMTOKEN #REQUIRED>
+<!ELEMENT common_name (#PCDATA)>
+<!ELEMENT Vegetation (#PCDATA)>
+<!ELEMENT Height (#PCDATA)>
+<!ELEMENT Shape_and_Structure (#PCDATA)>
+<!ELEMENT Spring_Color (#PCDATA)>
+<!ELEMENT Frost_Resistance (#PCDATA)>
+<!ELEMENT Olea_europea (common_name,Vegetation,Height,Shape_and_Structure)>
+<!ELEMENT Ramaje_tortuoso (Spring_Color,Frost_Resistance)>
+<!ELEMENT Platanus_orientalis (common_name,Vegetation,Height,Shape_and_Structure,Spring_Color,Autumn_Color,Frost_Resistance)>
+<!ELEMENT Autumn_Color (#PCDATA)>
+<!ELEMENT Quercus_ilex (common_name,Vegetation,Height,Shape_and_Structure,Frost_Resistance)>

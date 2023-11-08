@@ -1,0 +1,5 @@
+<!ELEMENT Football (match+)>
+<!ELEMENT match (local_team,visiting_team)>
+<!ELEMENT local_team (#PCDATA|goals)*>
+<!ELEMENT goals (#PCDATA)>
+<!ELEMENT visiting_team (#PCDATA|goals)*>

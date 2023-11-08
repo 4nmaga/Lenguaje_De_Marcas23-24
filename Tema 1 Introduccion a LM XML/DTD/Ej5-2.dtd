@@ -1,0 +1,6 @@
+<!ELEMENT Football (match+)>
+<!ELEMENT match (local_team,visiting_team)>
+<!ELEMENT local_team (#PCDATA)>
+<!ATTLIST local_team goals NMTOKEN #REQUIRED>
+<!ELEMENT visiting_team (#PCDATA)>
+<!ATTLIST visiting_team goals NMTOKEN #REQUIRED>

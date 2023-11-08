@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Football SYSTEM   "Ej5.dtd">
+<Football>
+    <match>
+    <local_team>Nottingham Preesa
+        <goals> 0 </goals>
+    </local_team>
+    <visiting_team>Inter from Mitente
+        <goals> 1 </goals>
+    </visiting_team>
+</match>
+<match>
+    <local_team>Vodka Juniors
+        <goals> 3 </goals>
+    </local_team>
+    <visiting_team>Sparta da Risa
+        <goals> 3 </goals>
+    </visiting_team>
+</match>
+<match>
+    <local_team>Water of Munich
+        <goals> 4 </goals>
+    </local_team>
+    <visiting_team>Esteaua is from the tap
+        <goals> 2 </goals>
+    </visiting_team>
+</match>
+</Football>
