@@ -14,7 +14,7 @@
                 <nombre>C/ Secundaria no2</nombre>
             </domicilio>
         </domicilios>
-    </personal>
+    </personal>   
     <pago>
         <tipo_matricula>Matrícula Ordinaria</tipo_matricula>
     </pago>

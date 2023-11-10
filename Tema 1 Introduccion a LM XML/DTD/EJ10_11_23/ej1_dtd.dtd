@@ -1,0 +1,8 @@
+<!ELEMENT relacion (persona+)>
+<!ELEMENT persona (nombre,email+,parentesco?)>
+<!ATTLIST persona sexo NMTOKEN #IMPLIED>
+<!ATTLIST persona carnet ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT parentesco (#PCDATA)>
+<!ATTLIST parentesco tipo (Son|Daughter|Father|Mother|Other) #IMPLIED>

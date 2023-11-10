@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ej1_dtd.dtd" type="application/xml-dtd"?>
+<?xml-model href="ej1.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<relacion>
+   <persona sexo="hombre" carnet="A1111">
+     <nombre>Luis Martin</nombre>
+     <email>luis@hotmail.com</email>
+     <parentesco tipo="Father"/>
+   </persona>
+   <persona sexo="mujer" carnet="B2222">
+     <nombre>Laura Martin</nombre>
+     <email>laura@hotmail.com</email>
+     <parentesco tipo="Daughter"/>
+   </persona>
+   <persona carnet="C3333">
+     <nombre>Raul Gonzalez</nombre>
+     <email>raul@hotmail.com</email>
+     <email>raulin@gmail.com</email>
+   </persona>
+</relacion>
