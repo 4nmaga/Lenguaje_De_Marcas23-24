@@ -10,7 +10,7 @@
                             <xs:element name="email" maxOccurs="unbounded">
                                 <xs:simpleType >
                                     <xs:restriction base="xs:string">
-                                        <xs:maxLength value="250"></xs:maxLength>
+                                        <xs:maxLength value="250"/>
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
@@ -19,11 +19,11 @@
                                     <xs:attribute name="tipo" >
                                         <xs:simpleType>
                                             <xs:restriction base="xs:string">
-                                                <xs:enumeration value="Son"></xs:enumeration>
-                                                <xs:enumeration value="Daughter"></xs:enumeration>
-                                                <xs:enumeration value="Father"></xs:enumeration>
-                                                <xs:enumeration value="Mother"></xs:enumeration>
-                                                <xs:enumeration value="Other"></xs:enumeration>
+                                                <xs:enumeration value="Son"/>
+                                                <xs:enumeration value="Daughter"/>
+                                                <xs:enumeration value="Father"/>
+                                                <xs:enumeration value="Mother"/>
+                                                <xs:enumeration value="Other"/>
                                             </xs:restriction>
                                         </xs:simpleType>
                                     </xs:attribute>

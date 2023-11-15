@@ -1,0 +1,12 @@
+<?xml-model href="ej2.dtd" type="application/xml-dtd"?>
+<Libro ctalogo="literatura">
+    <Titulo></Titulo>
+    <Seccion></Seccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema></Tema>
+        </Capitulo>
+        <Separacion/>
+    </Contenido>
+    <Copyright></Copyright>
+</Libro>

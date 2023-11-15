@@ -1,0 +1,11 @@
+<?xml-model href="ej4.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<clase codigo="patata">
+    <profesor>Dr.Smith</profesor>
+    <alumnos>
+        <alumno id="1">
+            <nombre></nombre>
+            <edad>20</edad>
+            <curso></curso>
+        </alumno>
+    </alumnos>
+</clase>
