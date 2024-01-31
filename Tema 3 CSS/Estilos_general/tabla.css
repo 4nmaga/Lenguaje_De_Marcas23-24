@@ -1,0 +1,56 @@
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#list_red>td>ul{
+    color: red;
+    text-align:start;
+}
+
+#gb>td{
+    font-size: 40px;
+    font-weight: lighter;
+    background-color: grey;
+    padding: 10px;
+}
+
+.primera_columna{
+    background-color: red;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+/*tr:nth-child(2)>td{
+    font-size: 40px;
+    font-weight: lighter;
+    background-color: grey;
+    padding: 10px;
+}*/
+
+
+
+#padd{
+    background-color: yellow;
+    padding: 40px;
+}
+
+tr:nth-child(5)>*,tr:nth-child(6)>*{
+    padding: 20px;
+}
+tr:nth-child(6)>td,tr:nth-child(4)>td{
+    font-weight: bold;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+td[colspan="2"],td[colspan="3"],th[colspan="3"],th[colspan="2"]{
+    background-color: blue;
+}

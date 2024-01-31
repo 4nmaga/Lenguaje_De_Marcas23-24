@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset style="background-color: rgb(182, 182, 182); border: 3px solid black;">
+            <legend style="border: 3px solid black; background-color: white;">Datos Personales</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="id_nombre">Nombre</label>
+                        <br>
+                        <input type="text" name="id_nombre" style="width: 230px;">
+                    </td>
+                    <td>
+                        <label for="id_apellidos">Apellidos</label>
+                        <br>
+                        <input type="text" name="id_apellidos">
+                    </td>
+                    <td>
+
+                        <label for="id_DNI">DNI</label>
+                        <br>
+                        <input type="text" name="id_DNI"></td>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <label for="id_localidad">Localidad Nacimiento</label>
+                        <br>
+                        <input type="text" name="id_localidad">
+                    </td>
+                    <td style="text-align: center;">
+                        <label for="provincia">Provincia</label>
+                        <br>
+                        <select name="provincia" id="provincia" style="width: 160px;">
+                            <option value="0" selected="true" disabled="disabled">-sleccione-</option>
+                            <option value="1">Sevilla</option>
+                        </select></td>
+                    <td>
+                        <label for="fecha">Fecha Nacimiento</label>
+                        <br>
+                        <input type="date" style="width: 172px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="id_direccion">Direccion</label>
+                        <br>
+                        <input type="text" name="id_direccion" style="width: 280px;">
+                    </td>
+                    <td><label for="id_Codpost">Codigo postal</label>
+                        <br>
+                        <input type="text" id="id_Codpost">
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset>
+        <form action="">
+            <fieldset style="background-color: rgb(254, 227, 164); border: 3px solid black;">
+            <legend style="border: 3px solid black; background-color: white;">Forma de acceso</legend>
+
+            <input type="radio" name="Direc" value="Direc"> Direc<br>
+            <ol style="list-style: none;">
+                <li><input type="radio" name="opcion" value="bach"> Bachillerato Logse. Modalidad<br></li>
+                <li><input type="radio" name="opcion" value="bach.e"> Bachillerato experimental<br></li>
+                <li><input type="radio" name="opcion" value="cou"> COU.Opcíon<br></li>
+                <li><input type="radio" name="opcion" value="fp2"> FP2<br></li>
+                <li><input type="radio" name="opcion" value="other"> Otros(espceifique)<br></li>
+            </ol>
+            <input type="radio" name="Direc" value="Prueba libre">Prueba libre<br>
+            </fieldset>
+        </form>
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
