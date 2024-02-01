@@ -12,28 +12,33 @@ td {
     border-collapse: collapse;
 
 }
-tr:first-child>:first-letter{
+
+tr:first-child>:first-letter {
     font-size: 2rem;
 }
-td:last-child:hover,th:last-child:hover{
+
+td:last-child:hover,
+th:last-child:hover {
     font-size: 2rem;
 }
-a{
+
+a {
     text-decoration: none;
     color: green;
 }
 
-input:required{
+input:required {
     border: 1px solid red;
     margin: 5px;
 }
-label::after{
+
+label::after {
     content: '*';
     color: red;
 
 }
 
-a:visited{
+a:visited {
     color: red;
 }
 
