@@ -14,12 +14,20 @@ td {
 }
 
 tr:first-child>:first-letter {
+<<<<<<< HEAD
     font-size: 2em;
+=======
+    font-size: 2rem;
+>>>>>>> d163ea66d4f81ce4adf88beb09279b13d10c5b62
 }
 
 td:last-child:hover,
 th:last-child:hover {
+<<<<<<< HEAD
     font-size: 2em;
+=======
+    font-size: 2rem;
+>>>>>>> d163ea66d4f81ce4adf88beb09279b13d10c5b62
 }
 
 a {
@@ -29,7 +37,11 @@ a {
 
 input:required {
     border: 1px solid red;
+<<<<<<< HEAD
     padding: 5px;
+=======
+    margin: 5px;
+>>>>>>> d163ea66d4f81ce4adf88beb09279b13d10c5b62
 }
 
 label::after {
@@ -44,7 +56,10 @@ a:visited {
 
 h2 {
     text-align: center;
+<<<<<<< HEAD
     margin: 0px;
+=======
+>>>>>>> d163ea66d4f81ce4adf88beb09279b13d10c5b62
 }
 
 td:first-child {
