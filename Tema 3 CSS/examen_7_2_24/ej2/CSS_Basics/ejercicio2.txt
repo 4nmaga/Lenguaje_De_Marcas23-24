@@ -1,0 +1,4 @@
+Los dos primeros parrafos se muestran distintos de los ultimos 
+5 por la clase verse si eliminamos la clase de esos parrafos <p>
+volveran a su estado normal o en su defecto borramos la clase del 
+css

@@ -1,0 +1,20 @@
+El primer estilo hace que el body en su totalidad sea
+del color especificado.
+
+El h1 hace que los titulos sean de color marron y su 
+fuente sea de un tamaño de 20 pt.
+
+El estilo aplicado a los hr le da color navy
+Los parrafos tienen el tamaño de la fuente en 12pt,
+se le ha aplicado un margen de 15 px a la izquierda
+y a los parrafos con la clase verse se les ha aplicado
+el color maroon y un margen a la izquierda de 60 px
+
+A los link no visitados se les a aplicado color green
+
+A los link ya visitados color yellow
+
+A los links que se les pase por encima el raton
+color black
+
+Y cuando haces click en ellos se activa el color blue.

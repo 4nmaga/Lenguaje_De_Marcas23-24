@@ -1,0 +1,56 @@
+table {
+    width: 100%;
+    border-radius: 200px;
+}
+
+/* */
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    border-collapse: collapse;
+
+}
+
+tr:first-child>:first-letter {
+    font-size: 2em;
+}
+
+td:last-child:hover,
+th:last-child:hover {
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+input:required {
+    border: 1px solid red;
+    padding: 5px;
+}
+
+label::after {
+    content: '*';
+    color: red;
+
+}
+
+a:visited {
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    margin: 0px;
+}
+
+td:first-child {
+    background-color: green;
+}
+
+tr:nth-child(4)>th {
+    background-color: yellow;
+}

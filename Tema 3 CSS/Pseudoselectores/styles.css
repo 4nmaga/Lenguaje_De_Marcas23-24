@@ -1,0 +1,19 @@
+a {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+div label:hover {
+  font-size: 30px;
+}
+
+label ~ input {
+  background-color: black;
+}
+p::first-letter {
+  color: green;
+  font-size: 30px;
+}
