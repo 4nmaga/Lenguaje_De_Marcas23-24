@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(189, 189, 189);
+    position: relative;
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+img{
+    text-align: center;
+}
+
+.usuario{
+    position:fixed;
+    border: 1px solid black;
+: 120px;
+}
+
+div{
+ display:inline-block;
+}
+
+.principal{
+    margin-left: 160px;
+    width: 70%;
+    height: 10000px;
+    background-color: green;
+}

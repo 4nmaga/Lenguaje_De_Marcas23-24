@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>layout</title>
+</head>
+
+<body>
+    <div class="nav-bar"></div>
+    <div class="form-cont">
+        <div>
+        <form action="push" class="form1">
+            <div>
+                <label for="">Addres <br><input type="text" class="text"placeholder="Search City,State,Country" /></label>
+            </div>
+
+            <div>
+                <label for="">Agent name <br /><input type="text" class="text" placeholder="Enter the agent name"/></label>
+            </div>
+
+            <div>
+                <label for="">Company name <br><input type="text" class="text" placeholder="Enter the company name"/></label>
+            </div>
+
+            <div>
+                <label>Lenguage <br><input list="len" type="list" placeholder="Select lenguage spoken"/></label>
+                <datalist id="len">
+                    <option value="English"></option>
+                </datalist>
+            </div>
+        </div>
+        
+            <div class="form2">
+                <label for="">Offices<input type="radio"></label>
+                <label for="">Agents<input type="radio"></label>
+            </div>
+            <div class="sort">
+                <img src="Captura.PNG" alt="">
+                <label for="">Sort by 
+                    <select>
+                    <option hidden selected>Date(Newest to Oldest)</option>
+                    <option value=""></option>
+                </select>
+            </label>
+            </div>
+        </form>
+    </div>
+    <h2>Century 21 Agent</h2>
+    <h3>Showing 100,389</h3>
+    <div class="men1"></div>
+    <div class="men2"></div>
+</body>
+
+</html>
