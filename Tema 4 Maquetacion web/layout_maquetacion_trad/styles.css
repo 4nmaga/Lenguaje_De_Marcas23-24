@@ -1,7 +1,11 @@
 .nav-bar {
   width: 100%;
-  height: 100px;
+  height: 50px;
   background-color: red;
+}
+
+h2{
+  margin-top: 0px;
 }
 
 .form-cont {
@@ -43,14 +47,15 @@ select {
 }
 
 .men1 {
-    display: flex;
+  display: flex;
   width: 100%;
   height: 150px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   align-items: center;
 }
 
 .img1{
+    margin-right: 60px;
     background-color: rgb(231, 231, 231);
     height: 80%;
     width: 100px;
@@ -63,14 +68,41 @@ select {
     
 }
 
-.text-men1{
-    background-color: red;
-    width: 350px;
+.sub-text>p:first-child{
+  font-weight: bold;
+}
+
+.sub-text{
+  flex-direction: column;
+
+  display: inline-block;
+}
+
+.text>h1,.text>h4{
+  margin: 0px;
+}
+
+.men1>hr{
+  size: 1px;
+  color: black;
+  height: 100%;
+  margin:0px;
+}
+
+.text{
+    display: inline-block;
+    flex-direction: row;
+    width: 380px;
     height: 100%;
 }
 
-.men2 {
+.pic-men{
+  display: flex;
   width: 100%;
+  flex-direction: column;
+}
+
+.men2 {
   background-color: green;
   height: 150px;
 }

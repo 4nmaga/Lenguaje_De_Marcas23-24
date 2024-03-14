@@ -1,0 +1,136 @@
+body {
+  margin: 5px;
+  padding: 0;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.form-cont {
+  width: 100%;
+  height: 150px;
+}
+
+input[type="text"],
+input[type="list"] {
+  width: 250px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid #000000;
+}
+
+.form1 {
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.form1 div {
+  padding-right: 66px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* Ajuste del estilo del label específico */
+.form1 div label {
+  display: block;
+  width: 100%;
+}
+
+.form2 {
+  float: left; /* Cambiado a float: left */
+  width: 50%; /* Ajustado el ancho */
+}
+
+.form2 label {
+  margin-right: 20px;
+}
+
+.sort {
+  width: 50%; /* Ajustado el ancho */
+  float: right; /* Cambiado a float: right */
+  margin-top: 10px;
+  text-align: right;
+}
+
+select {
+  width: 170px;
+}
+
+.men {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.img1 {
+  background-color: rgb(231, 231, 231);
+  height: 80%;
+  width: 100px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 4px;
+  padding-right: 11px;
+  padding-left: 20px;
+  float: left;
+}
+
+.text-men {
+  width: 50%; /* Ajustado el ancho */
+  margin-left: 20px;
+  float: left;
+}
+
+.text-men h1,
+.text-men h4 {
+  margin: 0;
+}
+
+.sub-text {
+  width: 300px;
+  display: inline-block;
+}
+.text h4 {
+  padding-bottom: 40px;
+}
+
+.sub-text p {
+  margin: 0;
+}
+
+.men > hr {
+  display: block;
+  border: none;
+  border-top: 1px solid black;
+  height: 100%;
+  margin: 0;
+  clear: both;
+}
+
+.pic-men > div img {
+  padding-right: 5px;
+  width: 94px;
+  height: 85px;
+}
+
+h1 {
+  font-size: larger;
+}
+
+.bot-float {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  float: inline-end;
+  border-radius: 100%;
+  z-index: 20;
+}
