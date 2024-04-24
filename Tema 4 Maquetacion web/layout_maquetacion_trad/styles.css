@@ -1,11 +1,14 @@
+html{
+  background-color: white;
+}
 .nav-bar {
   width: 100%;
   height: 50px;
   background-color: red;
 }
 
-h2{
-  margin-top: 0px;
+h2,h5{
+  margin: 0px;
 }
 
 .form-cont {
@@ -22,6 +25,7 @@ input[type="list"] {
   border-radius: 3px;
   border: 1px solid #000000;
 }
+
 
 .form1 {
   flex-direction: row;
@@ -47,11 +51,18 @@ select {
 }
 
 .men1 {
+  box-shadow: 0px 0px 10px rgb(208, 208, 208);
+  background-color: rgb(249, 249, 249);
+  border-radius: 3px;
   display: flex;
-  width: 100%;
   height: 150px;
   margin-bottom: 10px;
   align-items: center;
+}
+
+hr{
+  height: 128px;
+  opacity: 20%;
 }
 
 .img1{
@@ -62,6 +73,7 @@ select {
     border: 1px solid rgb(231, 231, 231);
     border-radius: 4px;
     padding-right: 11px;
+    margin-left: 10px;
     padding-left: 20px;
     display: inline-flex;
     justify-content: flex-start;
@@ -69,40 +81,31 @@ select {
 }
 
 .sub-text>p:first-child{
+  padding-right: 110px;
   font-weight: bold;
 }
 
-.sub-text{
-  flex-direction: column;
 
+
+.sub-text{
   display: inline-block;
 }
 
-.text>h1,.text>h4{
-  margin: 0px;
-}
-
-.men1>hr{
-  size: 1px;
-  color: black;
-  height: 100%;
-  margin:0px;
-}
 
 .text{
+    flex-grow: 4;
     display: inline-block;
     flex-direction: row;
-    width: 380px;
     height: 100%;
 }
 
-.pic-men{
-  display: flex;
-  width: 100%;
-  flex-direction: column;
+.pic-men>h4{
+  text-align: start;
 }
 
-.men2 {
-  background-color: green;
-  height: 150px;
+.pic-men{
+  flex-grow: 6;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
 }

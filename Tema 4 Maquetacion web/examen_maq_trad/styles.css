@@ -1,0 +1,124 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo div,
+.logo div {
+  display: inline-block;
+}
+
+.logo div h1 span {
+  color: green;
+}
+
+.logo div p {
+  margin: 0px;
+}
+
+.contact {
+    padding-left: 20px;
+  list-style: none;
+}
+
+.child {
+  text-align: right;
+}
+
+.child li {
+  display: inline;
+}
+
+.contact p,
+.contact img {
+
+  display: inline;
+}
+
+.menu {
+  width: 100%;
+  background-color: black;
+}
+.menu form input {
+  border: none;
+  background-color: black;
+}
+
+.menu form {
+  padding-top: 20px;
+  float: inline-end;
+  display: inline;
+}
+
+.menu ul {
+  display: inline;
+}
+
+.menu ul a:hover {
+  color: green;
+}
+
+.menu ul a {
+  padding-right: 20px;
+  font-size: large;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  display: inline-block;
+}
+
+.texto_flotante div a {
+  color: white;
+  text-decoration: none;
+}
+
+.texto_flotante p,
+.texto_flotante h2{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.texto_flotante {
+    vertical-align: bottom;
+
+  margin-left: 40px;
+
+  width: 30%;
+
+  opacity: 70%;
+  color: white;
+  background-color: rgb(94, 94, 94);
+}
+
+.castle {
+  position: absolute;
+  height: 700px;
+  width: 100%;
+}
+
+.texto_flotante h2,
+.texto_flotante p{
+opacity: 100%;
+}
+
+.col {
+  margin-top: 550px;
+}
+
+.col > div {
+  padding-left: 60px;
+  width: 28%;
+  display: inline-block;
+}
+
+.img_text img {
+  padding-right: 10px;
+  padding-bottom: 65px;
+}
+
+.img_text div {
+  padding: 0px;
+  display: inline-block;
+}
+.text {
+  width: 80%;
+}
