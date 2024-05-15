@@ -1,0 +1,1 @@
+#Este lyout esta preparado para verse en la resolucion 1567x755 al no ser responsivo

@@ -1,0 +1,140 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ h1 {
+    color: rgb(201, 175, 143);
+    font-size: 45px;
+    margin: 0px;
+    background-color: white;
+  }
+
+  .nav-bar ul li select {
+    background-color: #f1f1f1f1;
+    font-size: large;
+    border: 0px;
+  }
+  
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-bar li {
+
+    margin-right: 10px;
+}
+.menu-content {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background-color: #f1f1f1; /* Color de fondo del menú desplegable */
+    padding: 20px;
+    z-index: 999; /* Asegura que el menú esté encima del resto del contenido */
+}
+.menu-content {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 173px;
+    width: 60%; /* Cambié de 50vw a 50% para ocupar el 50% del ancho de la pantalla */
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding: 20px;
+    z-index: 1000; /* Aumenté el z-index para asegurar que esté por encima de otros elementos */
+    box-sizing: border-box;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-float {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior según sea necesario */
+    right: 20px; /* Ajusta la distancia desde el borde derecho según sea necesario */
+    z-index: 1000; /* Asegura que el botón esté encima de otros elementos */
+}
+
+.form-cont div{
+    padding-bottom: 10px;
+}
+
+.menu-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en forma de columna */
+}
+
+.menu-content ul li {
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+    color: #333; /* Color de texto para que sea visible */
+    font-size: large;
+}
+
+.menu-btn.hidden {
+    display: none;
+}
+
+
+
+.nav-bar select,
+.nav-bar img {
+    vertical-align: middle;
+}
+
+.menu-content.hidden {
+    display: none; /* Clase para ocultar contenido */
+}
+
+.menu-btn {
+    display: none; /* Oculta el botón de hamburguesa en pantallas más grandes */
+}
+.menu-content ul li:hover {
+    background-color: rgb(206, 24, 24); /* Cambia el color de fondo al pasar el ratón */
+}
+
+
+@media screen and (max-width: 576px) {
+    .menu-btn {
+        display: block; /* Muestra el botón de hamburguesa en pantallas más pequeñas */
+    }
+    .menu-content ul li img {
+        display: none; /* Oculta la imagen en pantallas con un ancho máximo de 576px */
+    }
+
+
+    .text h2 {
+        font-size: 20px; /* Reduzca el tamaño del título h2 */
+    }
+
+    .text h5 {
+        font-size: 14px; /* Reduzca el tamaño del subtítulo h5 */
+    }
+
+    .sub-text p {
+        font-size: 12px; /* Reduzca el tamaño del texto del párrafo */
+    }
+    .text {
+        display: flex;
+        flex-direction: row; /* Alinear los elementos en fila */
+        justify-content: space-between; /* Distribuir los elementos a lo largo del eje principal (horizontal) */
+    }
+
+    .sub-text {
+        flex: 1; /* Distribuir el espacio disponible entre los elementos */
+        text-align: left; /* Alinear el texto a la izquierda */
+    }
+
+    .sub-text:last-child {
+        text-align: right; /* Alinear el último elemento a la derecha */
+    }
+}
